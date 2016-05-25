@@ -8,6 +8,9 @@ State,Field,Text,The full name of the state where the incident occurred.,Califor
 Number of Victim Fatalities,Field,Number,Number of people killed by the shooter(s) by gunshot.,16
 Total Number of Fatalities,Field,Number,"Total number of people killed during the incident, including the shooter(s) when applicable.  This number includes the shooter(s) if he/she was killed or committed suicide during the incident.",17
 Number of Victims Injured,Field,Number,Number of persons injured by gunshot by the shooter(s) during the incident.,0
+Number of Enforcement Fatalaties,Field,Number,Number of law enforcement personnel killed by the shooter(s) by gunshot.,
+Number of Enforcement Injured,Field,Number,Number of law enforcement personnel injured by gunshot by the shooter(s) during the incident.,
+Total Number of Victims,Field,Number,"Total number of people killed or injured during the incident, not including the shooter(s).",
 Description,Field,Text,"A brief, detail description of the incident. Write the description in your own words. Please do not copy paste text from any source. DO NOT INCLUDE THE NAME OF THE SHOOTER.",
 Date,Field,Number,The date of the first day the incident occurred.  In cases where there are multiple days involved please input the date of the first day the incident occurred.,MM/DD/YYYY
 Date - Detailed,Field,Text,"The date, including day of the week, when the incident occurred.","Friday, December 14, 2012"
