@@ -27,8 +27,8 @@ Native Hawaiians or Other Pacific Islander,Variable,Text,"Those having origins i
 Some other race,Variable,Text,"Respondents may write how they identify themselves, if different from the foregoing categories. Responses have included Mestizo, Creole, and Mulatto, which are generally considered to be categories of multi-racial ancestry, such as African and European, but, write-in entries reported in the 2000 census also included nationalities, such as South African, Moroccan, Belizean, Mexican, Puerto Rican, Cuban, as well as other mixed-race terms like Wesort, mixed, interracial, and others. 95% of the people who report in this category are of Hispanic and Latino origin.",
 Two or more races,Variable,Text,"Those who check off and/or write in more than one race. There is no option labelled ""Two or more races"" or ""Multiracial"" on census and other forms; people who report more than one of the foregoing six options are classified as people of ""Two or more races"" in subsequent processing. Any respondent may identify with any number, up to all six, of the racial categories.",
 Unknown,Variable,Text,There is no current records on the shooter's race,
-Type of Gun ? Detailed,Field,Text,"Detail information about the guns(s) involved in the incident. Please state the name and the type of gun (shot gun) as well as the caliber if possible.  Caliber: diameter of the barrel, or the diameter of the projectile Pistols = Handgun Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf  http://www.atf.gov/firearms/guides/identification-of-nfa-firearms.html#m-2-carbine",.12-gauge pump action shotgun
-Type of Gun ? General,Field,Text,"General gun categories reflecting the gun(s) type involved in the incident. Handgun = Handgun, pistols, revolver Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length. Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf",Shotgun
+Type of Gun - Detailed,Field,Text,"Detail information about the guns(s) involved in the incident. Please state the name and the type of gun (shot gun) as well as the caliber if possible.  Caliber: diameter of the barrel, or the diameter of the projectile Pistols = Handgun Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf  http://www.atf.gov/firearms/guides/identification-of-nfa-firearms.html#m-2-carbine",.12-gauge pump action shotgun
+Type of Gun - General,Field,Text,"General gun categories reflecting the gun(s) type involved in the incident. Handgun = Handgun, pistols, revolver Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length. Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf",Shotgun
 Shotgun,Variable,Text,Type of gun related variable,
 Rifle,Variable,Text,Type of gun related variable. Includes carbines,
 Handgun,Variable,Text,"Type of gun related variable. Includes pistols, revolvers.",
@@ -59,7 +59,7 @@ Medical/Care,Variable,Text,A facility that provides medical services and care fo
 College/University/Adult education,Variable,Text,"A facility of higher education, public and private learning","University, College, Vocational, or Institutes"
 Public transportation,Variable,Text,A private or public transit facility or vehicle.,"Bus, train, shuttle, taxi cab, transit station, airport."
 Residential home/Neighborhood,Variable,Text,A housing unit or neighborhood which houses people of the shooter's community.,"House, apartment, house boat, mobile home."
-Restaurant/Cafe,Variable,Text,A restaurant or caf? business.,
+Restaurant/Cafe,Variable,Text,A restaurant or cafe business.,
 Retail/ Wholesale/Services facility,Variable,Text,A business facility dedicated to retail wholesale or services.,"Retail wholesale examples: shopping centers, retail stores (clothing, pet store, food store), market. Retail services examples: car wash, beauty salon, dry cleaning, laundry mat."
 Entertainment venue,Variable,Text,A facility that provides entertainment for the general public. ,"Cinema, nightclub, theater, circus, sport venues."
 Street/Highway,Variable,Text,A residential/main street or highway.,Residential street
@@ -68,21 +68,21 @@ Secondary school,Variable,Text,"A facility that provides a secondary, public and
 Company/Factory/Office,Variable,Text,A facility where people work during a similar time period; an individual business dedicated to the management of other chains; factory.,
 Unknown,Variable,Text,The place where the incident was committed was not found in public documentation relating to the event.,
 Relationship to Incident Location,Field,Text,The shooter's relationship to the place where the initial shooting occurred or place where the main shooting occurred.,
-Place of residency,Variable,Text,"The place where the shooter, or someone he knew, resided before or at the time of the incident. This place could be a house, apartment unit or neighborhood where the shooter resided. ",The place the incident occurred was the shooter?s girlfriend?s home.
+Place of residency,Variable,Text,"The place where the shooter, or someone he knew, resided before or at the time of the incident. This place could be a house, apartment unit or neighborhood where the shooter resided. ",The place the incident occurred was the shooter's girlfriend's home.
 Place of business/employment,Variable,Text,"The place where the shooter or someone he knew, conducted business, was employed, had a business transaction or relationship before or at the time of the incident. ",
 Place of recreation,Variable,Text,"The place where the shooter or someone he knew, spend their recreational time, at the time of the incident.","Club, school dance, sporting event, restaurant, social events (house parties)."
 Place of schooling,Variable,Text,"The place where the shooter or someone he knew, went to school, before or at the time of the incident.",
-Local government ,Variable,Text,The place where the shooter?s local government resides.,
+Local government ,Variable,Text,The place where the shooter's local government resides.,
 None,Variable,Text,No apparent relationship to the place.,
 Unknown,Variable,Text,The relationship the shooter or his victim/s had to the place where the incident occurred is unknown to us.,
-Targeted Victim/s ? Detailed,Field,Text,Detail description of the initial targeted victim/s involved in the incident.,
+Targeted Victim/s - Detailed,Field,Text,Detail description of the initial targeted victim/s involved in the incident.,
 Targeted Victim/s - General,Field,Text,General category used to classify the initial targeted victim/s involved in the incident.,
-Family,Variable,Text,"The shooter?s family member/s or the shooter?s former or current, partner?s family member/s.",
-Romantic partner,Variable,Text,"The shooter?s, estranged or current, romantic partner at the time of the incident.",
-Colleague/Workmate/Business acquaintance,Variable,Text,"The shooter?s former, or current, colleague at the time of the incident or the shooter?s former or current, partner?s colleagues.  Shooter?s former, or current, business acquaintance at the time of the incident",
-Students/Classmates/Teacher,Variable,Text,"The shooter?s former, or current, schoolmate/s or students at the time of the incident. The shooter?s former or current teacher/professor at the time of the incident",
+Family,Variable,Text,"The shooter's family member/s or the shooter's former or current, partner's family member/s.",
+Romantic partner,Variable,Text,"The shooter's, estranged or current, romantic partner at the time of the incident.",
+Colleague/Workmate/Business acquaintance,Variable,Text,"The shooter's former, or current, colleague at the time of the incident or the shooter's former or current, partner's colleagues.  Shooter's former, or current, business acquaintance at the time of the incident",
+Students/Classmates/Teacher,Variable,Text,"The shooter's former, or current, schoolmate/s or students at the time of the incident. The shooter's former or current teacher/professor at the time of the incident",
 General public,Variable,Text,The targeted victims appear to have been random targets.,
-Racial/Religious group,Variable,Text,The shooter?s targeted victim/s was based on race and/or religious beliefs.,
+Racial/Religious group,Variable,Text,The shooter's targeted victim/s was based on race and/or religious beliefs.,
 Government,Variable,Text,"The targeted victims are local, state or federal government employees, such as policeman, military, etc",
 Social,Variable,Text,"The victim/s relationship to the shooter at the time of the incident was based on a current or previous social relationship between the victim and the shooter, or someone the victim knew. This social relationship was built outside or inside a school facility. Includes neighbors",
 Unknown,Variable,Text,Information about the victim/s and their relationship to the shooter is unknown to us.,
@@ -122,6 +122,6 @@ Unknown,Variable,Text,Unknown or Under investigation so the status may be change
 Class,Field,Text,"An indication of the number of victims and fatalities, as well as the time span and location of the incident and any mention of gang or drug related activity",
 Mass Shooting (MS),Variable,Text,"3 or more people shot (not including the shooter, do not need to be fatalities). Usually single location, but possibly multiple locations. Single incident (did not occur over more than a single day). Motive appears to be indiscriminate. Not identified as gang or drug related by media.",
 Mass Murder (MM),Variable,Text,4 or more fatalities (not including the shooter). Single location. Single incident (did not occur over more than a single day). Motive appears to be indiscriminate. Not identified as gang or drug related by media.,
-Spree Killing (SPK),Variable,Text,4 or more fatalities (not including the shooter). Multiple locations. May consist of multiple incidents but over a relatively short time span. No ?cooling off period? between shootings.,
-Serial Killing (SEK),Variable,Text,Multiple fatalities in multiple locations over a long period of time. May include a significant ?cooling off period? between incidents.,
+Spree Killing (SPK),Variable,Text,4 or more fatalities (not including the shooter). Multiple locations. May consist of multiple incidents but over a relatively short time span. No *cooling off period* between shootings.,
+Serial Killing (SEK),Variable,Text,Multiple fatalities in multiple locations over a long period of time. May include a significant 'cooling off period' between incidents.,
 Gang or Drug Related (GD),Variable,Text,Shooting incidents where media or police reports tie the incident to gang or drug related activities.,
