@@ -1,0 +1,142 @@
+Field,Data Item,Data Type,Definition,Examples
+Title,Field,Text,"The title of the incident, given by the data collector. The title generally includes the name of the place where the incident occurred and other descriptive information related to the incident. ",
+Location,Field,Text,"The city and state names where the incident occurred.  In cases where only a village or town name is given, please record all the administrative boundary names (village, county, state)","Essex, Chittenden County, Vermont"
+City,Variable,Text,"Location related variable.  In cases where only a village or town name is given, please record the closest city to the village or town.",
+State,Variable,Text,Location related variable,
+City,Field,Text,"The full name of the city where the incident occurred. In cases where only a village or town name is given, please record the closest city to the village or town.",Redwood City
+State,Field,Text,The full name of the state where the incident occurred.,California
+Number of Victim Fatalities,Field,Number,Number of people killed by the shooter(s) by gunshot.,16
+Total Number of Fatalities,Field,Number,"Total number of people killed during the incident, including the shooter(s) when applicable.  This number includes the shooter(s) if he/she was killed or committed suicide during the incident.",17
+Number of Victims Injured,Field,Number,Number of persons injured by gunshot by the shooter(s) during the incident.,0
+Number of Enforcement Fatalaties,Field,Number,Number of law enforcement personnel killed by the shooter(s) by gunshot.,
+Number of Enforcement Injured,Field,Number,Number of law enforcement personnel injured by gunshot by the shooter(s) during the incident.,
+Total Number of Victims,Field,Number,"Total number of people killed or injured during the incident, not including the shooter(s).",
+Description,Field,Text,"A brief, detail description of the incident. Write the description in your own words. Please do not copy paste text from any source. DO NOT INCLUDE THE NAME OF THE SHOOTER.",
+Date,Field,Number,The date of the first day the incident occurred.  In cases where there are multiple days involved please input the date of the first day the incident occurred.,MM/DD/YYYY
+Date - Detailed,Field,Text,"The date, including day of the week, when the incident occurred.","Friday, December 14, 2012"
+Day of Week,Field,Text,The day of the week on which the incident occurred.,Friday
+Shooter Name,Field,Text,"The full name of the shooter(s); first, middle and last name. Note: Never display the name of the shooter on any visual public interface. Do not place the name in the description field.",Mark James Robert Essex
+Shooter Age(s),Field,Number,Shooter(s) age at the time of the incident.  In cases where there are multiple shooters involved please select the AVERAGE NUMBER between the ages.,25
+Average Shooter Age,Field,Number,Average age of all shooters involved in the incident,
+Shooter Sex,Field,Text,The sex of the shooter(s).,Male
+Female,Variable,Text,Gender related variable,
+Male,Variable,Text,Gender related variable,
+Shooter Race,Field,Text,The race or ethnic background of the shooter(s). Categories based 2000 US Census Bureau survey.,White
+White American or European American,Variable,Text,"Those having origins in any of the original peoples of Europe, the Middle East, or North Africa.",
+Black American or African American,Variable,Text,Those having origins in any of the racial and ethnic groups of Africa.,
+Native American or Alaska Native,Variable,Text,"Those having origins in any of the original peoples of North, Central and South America, and who maintain tribal affiliation or community attachment.",
+Asian American,Variable,Text,"Those having origins in any of the original peoples of the Far East, Southeast Asia, and the Indian subcontinent; frequently specified as Chinese American, Korean American, Indian American, Filipino American, Vietnamese American, Japanese American, etc.",
+Native Hawaiians or Other Pacific Islander,Variable,Text,"Those having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands.",
+Some other race,Variable,Text,"Respondents may write how they identify themselves, if different from the foregoing categories. Responses have included Mestizo, Creole, and Mulatto, which are generally considered to be categories of multi-racial ancestry, such as African and European, but, write-in entries reported in the 2000 census also included nationalities, such as South African, Moroccan, Belizean, Mexican, Puerto Rican, Cuban, as well as other mixed-race terms like Wesort, mixed, interracial, and others. 95% of the people who report in this category are of Hispanic and Latino origin.",
+Two or more races,Variable,Text,"Those who check off and/or write in more than one race. There is no option labelled ""Two or more races"" or ""Multiracial"" on census and other forms; people who report more than one of the foregoing six options are classified as people of ""Two or more races"" in subsequent processing. Any respondent may identify with any number, up to all six, of the racial categories.",
+Unknown,Variable,Text,There is no current records on the shooter's race,
+Type of Gun - Detailed,Field,Text,"Detail information about the guns(s) involved in the incident. Please state the name and the type of gun (shot gun) as well as the caliber if possible.  Caliber: diameter of the barrel, or the diameter of the projectile Pistols = Handgun Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf  http://www.atf.gov/firearms/guides/identification-of-nfa-firearms.html#m-2-carbine",.12-gauge pump action shotgun
+Type of Gun - General,Field,Text,"General gun categories reflecting the gun(s) type involved in the incident. Handgun = Handgun, pistols, revolver Rifle = A rifle is a firearm designed to be fired from the shoulder; it has a barrel or barrels less than 16 inches in length. Shotgun = designed to be fired from the shoulder; it has a barrel or barrels less than 18 inches in length http://www.atf.gov/files/publications/download/p/atf-p-5320-8/atf-p-5320-8-chapter-2.pdf",Shotgun
+Shotgun,Variable,Text,Type of gun related variable,
+Rifle,Variable,Text,Type of gun related variable. Includes carbines,
+Handgun,Variable,Text,"Type of gun related variable. Includes pistols, revolvers.",
+Multiple guns,Variable,Text,"Type of gun related variable, More than one gun type",1 Shotgun and 2 Rifles
+Number of Shotguns,Field,Number,The number of shotgun used during the incident.,0
+Number of Rifles,Field,Number,The number of rifle used during the incident.,0
+Number of Handguns,Field,Number,The number of handgun used during the incident.,2
+Total Number of Guns,Field,Number,The total number of guns used during the incident.,5
+Number of Automatic Guns,Field,Number,The number of automatic gun(s) used. Need to verify which types,2
+Number of Semi-Automatic Guns,Field,Number,The number of semi-automatic gun(s) used. Need to verify which types.,0
+Fate of Shooter at the scene,Field,Text,A general category describing the fate of the shooter at the time of the incident.,"Deceased, Arrested, Escaped"
+Deceased,Variable,Text,Fate of shooter related variable,
+Arrested,Variable,Text,Fate of shooter related variable,
+Escaped,Variable,Text,Fate of shooter related variable,
+Fate of Shooter at the scene,Field,Text,A general category describing the fate of the shooter in relation to the incident,
+Deceased,Variable,Text,Fate of shooter related variable,
+Arrested,Variable,Text,Fate of shooter related variable,
+Escaped,Variable,Text,Fate of shooter related variable,
+Shooters Cause of Death,Field,Text,The general cause of death at the time of the incident.,"Killed, Committed suicide"
+Killed,Variable,Text,Cause of death related variable,
+Suicide,Variable,Text,Cause of death related variable,
+Not applicable,Variable,Text,The shooter did not die during the incident,
+School Related,Field,Text,"Was the incident school related; did the main incident take place in a school, yes or no?",No
+Yes,Variable,Text,"School related, variable",
+No,Variable,Text,"School related, variable",
+Place Type,Field,Text,A general category of the location where the initial or main incident occurred.,Medical/care facility
+Park/Wildness,Variable,Text,Outdoor places for recreation.,"City or Co. parks & fields, open spaces, playgrounds. National parks & forest"
+Place of worship ,Variable,Text,Facilities that provide an environment where community members come to worship with other members of the community. ,"Church, community center (used for religious services)."
+Government  facility,Variable,Text,"A facility that houses local, state, or federal government services/representation.","City hall, social security office, court house."
+Military facility,Variable,Text,A facility that houses military training/services/representation.,"Navy yard, military base"
+Medical/Care,Variable,Text,A facility that provides medical services and care for people in the community. ,"Hospital, clinic, nursing home."
+College/University/Adult education,Variable,Text,"A facility of higher education, public and private learning","University, College, Vocational, or Institutes"
+Public transportation,Variable,Text,A private or public transit facility or vehicle.,"Bus, train, shuttle, taxi cab, transit station, airport."
+Residential home/Neighborhood,Variable,Text,A housing unit or neighborhood which houses people of the shooter's community.,"House, apartment, house boat, mobile home."
+Restaurant/Cafe,Variable,Text,A restaurant or cafe business.,
+Retail/ Wholesale/Services facility,Variable,Text,A business facility dedicated to retail wholesale or services.,"Retail wholesale examples: shopping centers, retail stores (clothing, pet store, food store), market. Retail services examples: car wash, beauty salon, dry cleaning, laundry mat."
+Entertainment venue,Variable,Text,A facility that provides entertainment for the general public. ,"Cinema, nightclub, theater, circus, sport venues."
+Street/Highway,Variable,Text,A residential/main street or highway.,Residential street
+Primary school,Variable,Text,"A facility that provides a preprimary and primary, public and private education. ","Preschool, elementary school, junior high school"
+Secondary school,Variable,Text,"A facility that provides a secondary, public and private education.",High school
+Company/Factory/Office,Variable,Text,A facility where people work during a similar time period; an individual business dedicated to the management of other chains; factory.,
+Unknown,Variable,Text,The place where the incident was committed was not found in public documentation relating to the event.,
+Relationship to Incident Location,Field,Text,The shooter's relationship to the place where the initial shooting occurred or place where the main shooting occurred.,
+Place of residency,Variable,Text,"The place where the shooter, or someone he knew, resided before or at the time of the incident. This place could be a house, apartment unit or neighborhood where the shooter resided. ",The place the incident occurred was the shooter's girlfriend's home.
+Place of business/employment,Variable,Text,"The place where the shooter or someone he knew, conducted business, was employed, had a business transaction or relationship before or at the time of the incident. ",
+Place of recreation,Variable,Text,"The place where the shooter or someone he knew, spend their recreational time, at the time of the incident.","Club, school dance, sporting event, restaurant, social events (house parties)."
+Place of schooling,Variable,Text,"The place where the shooter or someone he knew, went to school, before or at the time of the incident.",
+Local government ,Variable,Text,The place where the shooter's local government resides.,
+None,Variable,Text,No apparent relationship to the place.,
+Unknown,Variable,Text,The relationship the shooter or his victim/s had to the place where the incident occurred is unknown to us.,
+Targeted Victim/s - Detailed,Field,Text,Detail description of the initial targeted victim/s involved in the incident.,
+Targeted Victim/s - General,Field,Text,General category used to classify the initial targeted victim/s involved in the incident.,
+Family,Variable,Text,"The shooter's family member/s or the shooter's former or current, partner's family member/s.",
+Romantic partner,Variable,Text,"The shooter's, estranged or current, romantic partner at the time of the incident.",
+Colleague/Workmate/Business acquaintance,Variable,Text,"The shooter's former, or current, colleague at the time of the incident or the shooter's former or current, partner's colleagues.  Shooter's former, or current, business acquaintance at the time of the incident",
+Students/Classmates/Teacher,Variable,Text,"The shooter's former, or current, schoolmate/s or students at the time of the incident. The shooter's former or current teacher/professor at the time of the incident",
+General public,Variable,Text,The targeted victims appear to have been random targets.,
+Racial/Religious group,Variable,Text,The shooter's targeted victim/s was based on race and/or religious beliefs.,
+Government,Variable,Text,"The targeted victims are local, state or federal government employees, such as policeman, military, etc",
+Social,Variable,Text,"The victim/s relationship to the shooter at the time of the incident was based on a current or previous social relationship between the victim and the shooter, or someone the victim knew. This social relationship was built outside or inside a school facility. Includes neighbors",
+Unknown,Variable,Text,Information about the victim/s and their relationship to the shooter is unknown to us.,
+Possible Motive -  Detailed,Field,Text,"Detail description of the potential motive for the shooting. What did the shooter think and/or feel before the shooting, why did the shooter start shooting, and who was the main target.",
+Possible Motive -  General,Field,Text,General category of potential motives for the shooting.,
+Mental illness,Variable,Text,Potential motive for the shooting could be attributed to mental health problem/s.,
+Neurological disorder,Variable,Text,"Potential motive for the shooting could be attributed to any disorder of the body nervous system, such as brain tumor, brain damage, brain dysfunction, brain injury and epilepsy",
+Political/Religious ideals,Variable,Text,Potential motive for the shooting could be attributed to political or religious ideals.,The shooter did not agree with the local political elections so he decided to shoot everyone at a local government office.
+Legal dispute,Variable,Text,Potential motive for the shooting could be attributed to legal dispute.,
+Financial difficulties,Variable,Text,Potential motive for the shooting could be attributed to financial hardship.,
+Race,Variable,Text,Potential motive for the shooting could be attributed to targeting a particular racial group,
+Drug use,Variable,Text,Potential motive for the shooting could be attributed to drug use,
+Rejection,Variable,Text,Potential motive for the shooting could be attributed to social rejection. ,
+Grief,Variable,Text,Potential motive for the shooting could be attributed to grief.,
+Expulsion/Suspension,Variable,Text,"Potential motive for the shooting could be attributed to getting expelled from school/university/college/institute, and other social learning groups and institutions, organizations.",
+Domestic dispute,Variable,Text,Potential motive for the shooting could be attributed to a domestic dispute.,
+Terminated/Denied/Reprimanded,Variable,Text,"Potential motive for the shooting could be attributed to getting terminated from work, denial of status, being reprimanded or punished for workplace or other behavior.",1. Shooter was denied tenure therefore he decided to shoot his colleagues. 2. Shooter was terminated from work therefore he decided to shoot his boss.
+Financial dispute,Variable,Text,Potential motive for the shooting could be attributed to financial non-legal dispute.,
+Harassment,Variable,Text,"Potential motive for the shooting could be attributed to the shooter being harassed, bullied by others.",The shooter was bullied for years so he decided to shoot his harasser.
+Failure,Variable,Text,"Potential motive for the shooting could be attributed to a sense of failure or failure at a sport, game, school grade etc.",The shooter got a failing grade so he shot his teacher.
+Social dispute,Variable,Text,"Potential motive for the shooting could be attributed to social dispute. A social dispute could be a dispute over a girl, a dispute over power, a dispute over masculinity or anything related to gender and society.","The shooter was in dispute with another man, over a girl so he decided to shot and kill three people."
+Unknown,Variable,Text,Unknown or Under investigation so the status may be changed,
+Multiple motives,Variable,Text,Potential motive for the shooting could be attributed to multiple motives.,
+Gender,Variable,Text,Potential motive for the shooting could be attributed to targeting a particular gender group,
+Robbery,Variable,Text,Motive appears to be robbery. This indicates the shooting was a secondary motive. Indicates a depreciation value of '2',
+History of Mental Illness - Detailed,Field,Text,A detail description about any known mental illness history the shooter may have had during the time of the incident.,
+History of Mental Illness - General,Field,Text,An indication of whether the shooter had a mental illness during the time of the incident.,
+Yes,Variable,Text,History of mental illness related variable,
+No,Variable,Text,History of mental illness related variable,
+Unknown,Variable,Text,Unknown or Under investigation so the status may be changed,
+Data Source 1,Field,Text,The data source link 1,
+Data Source 2,Field,Text,The data source link 2,
+Military Experience,Field,Text,An indication of whether the shooter had previous military experience,
+Yes,Variable,Text,Previous military experience related variable,
+No,Variable,Text,Previous military experience related variable,
+Unknown,Variable,Text,Unknown or Under investigation so the status may be changed,
+Class,Field,Text,"An indication of the number of victims and fatalities, as well as the time span and location of the incident and any mention of gang or drug related activity",
+Mass Shooting (MS),Variable,Text,"3 or more people shot (not including the shooter, do not need to be fatalities). Usually single location, but possibly multiple locations. Single incident (did not occur over more than a single day). Motive appears to be indiscriminate. Not identified as gang or drug related by media.",
+Mass Murder (MM),Variable,Text,4 or more fatalities (not including the shooter). Single location. Single incident (did not occur over more than a single day). Motive appears to be indiscriminate. Not identified as gang or drug related by media.,
+Spree Killing (SPK),Variable,Text,4 or more fatalities (not including the shooter). Multiple locations. May consist of multiple incidents but over a relatively short time span. No *cooling off period* between shootings.,
+Serial Killing (SEK),Variable,Text,Multiple fatalities in multiple locations over a long period of time. May include a significant 'cooling off period' between incidents.,
+Gang or Drug Related (GD),Variable,Text,Shooting incidents where media or police reports tie the incident to gang or drug related activities.,
+Family Murder Suicide (FMS),Variable,Text,Shooting incidents where family members are the primary targets and the shooter commits suicide.,
+Depreciation,Field,Number,Field to indicate uncertainty regarding the details of a case or depreciation of a case as a result of information that surfaces after the initial data collection began ,
+0,Variable,Number,'0' indicates the case clearly does not fit the criteria for inclusion in the database,There are definitely drugs/gangs involved
+1,Variable,Number,'1' indicates the case clearly fits the criteria for inclusion in the database,
+2,Variable,Number,'2' indicates there is uncertainly regarding the details of the case; ,"Shooting is not the primary motive, it's a robbery. Or there is disagreement about gang/drug involvement"
+Notes,Field,Text,Field to describe any additional information that is needed to understand the case.,
+Edit Date,Field,Number,Field to indicate the most recent edit date,MM/DD/YYYY
+,,,,
