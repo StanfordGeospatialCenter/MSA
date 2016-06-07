@@ -54,4 +54,4 @@ The Stanford MSA is released under a Creative Commons Attribution 4.0 internatio
 The Stanford MSA is an ongoing project that involves the careful aggregation of data on a topic that receives numerous new records under the search term “Mass Shooting” on a weekly basis. Updating the database involves checking and corroborating both new and historical stories and is a time consuming process.  Our goal is to release a new update at least once a month or more frequently depending on the number of new records.
 
 ##### Access
-Please fill out the form linked [here](https://docs.google.com/forms/d/1tu5IyY3Fr93ecxwFh584cs30lrff3Jau2VJdNjhFAHc/viewform) to obtain a copy of the latest MSA release and data dictionary. Current release copy is June 6th, 2016.
+Please fill out the form linked [here](https://docs.google.com/forms/d/1tu5IyY3Fr93ecxwFh584cs30lrff3Jau2VJdNjhFAHc/viewform) if you plan to use the database. Current release copy is June 6th, 2016.
