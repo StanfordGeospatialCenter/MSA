@@ -131,7 +131,7 @@ Mass Shooting (MS),Variable,Text,"3 or more people shot (not including the shoot
 Spree Killing (SPK),Variable,Text,3 or more fatalities (not including the shooter). Multiple locations. May consist of multiple incidents but over a relatively short time span. No *cooling off period* between shootings.,
 Serial Killing (SEK),Variable,Text,Multiple fatalities in multiple locations over a long period of time. May include a significant 'cooling off period' between incidents.,
 Gang or Drug Related (GD),Variable,Text,Shooting incidents where media or police reports tie the incident to gang or drug related activities.,
-Family Murder Suicide (FMS),Variable,Text,Shooting incidents where family members are the primary targets and the shooter commits suicide.,
+Family Murder Suicide (FMS),Variable,Text,Shooting incidents where family members (or non-platonic friends) are the primary targets and the shooter commits suicide.,
 Depreciation,Field,Number,Field to indicate uncertainty regarding the details of a case or depreciation of a case as a result of information that surfaces after the initial data collection began ,
 0,Variable,Number,'0' indicates the case clearly does not fit the criteria for inclusion in the database,There are definitely drugs/gangs involved
 1,Variable,Number,'1' indicates the case clearly fits the criteria for inclusion in the database,
