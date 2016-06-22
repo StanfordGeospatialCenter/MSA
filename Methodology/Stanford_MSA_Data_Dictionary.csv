@@ -16,6 +16,7 @@ Date,Field,Number,The date of the first day the incident occurred.  In cases whe
 Date - Detailed,Field,Text,"The date, including day of the week, when the incident occurred.","Friday, December 14, 2012"
 Day of Week,Field,Text,The day of the week on which the incident occurred.,Friday
 Shooter Name,Field,Text,"The full name of the shooter(s); first, middle and last name. Note: Never display the name of the shooter on any visual public interface. Do not place the name in the description field.",Mark James Robert Essex
+Number of shooter(s), Field, Number, Number of shooter perpetrators involved in the incident,
 Shooter Age(s),Field,Number,Shooter(s) age at the time of the incident.  In cases where there are multiple shooters involved please select the AVERAGE NUMBER between the ages.,25
 Average Shooter Age,Field,Number,Average age of all shooters involved in the incident,
 Shooter Sex,Field,Text,The sex of the shooter(s).,Male
