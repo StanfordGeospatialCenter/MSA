@@ -44,11 +44,11 @@ Number of Automatic Guns,Field,Number,The number of automatic gun(s) used. Need 
 Number of Semi-Automatic Guns,Field,Number,The number of semi-automatic gun(s) used. Need to verify which types.,0
 Fate of Shooter at the scene,Field,Text,A general category describing the fate of the shooter at the time of the incident.,"Deceased, Arrested, Escaped"
 Deceased,Variable,Text,Fate of shooter related variable,
-Arrested,Variable,Text,Fate of shooter related variable,
+Custody,Variable,Text,Fate of shooter related variable,
 Escaped,Variable,Text,Fate of shooter related variable,
-Fate of Shooter at the scene,Field,Text,A general category describing the fate of the shooter in relation to the incident,
+Fate of Shooter,Field,Text,A general category describing the fate of the shooter following the incident,
 Deceased,Variable,Text,Fate of shooter related variable,
-Arrested,Variable,Text,Fate of shooter related variable,
+Custody,Variable,Text,Fate of shooter related variable,
 Escaped,Variable,Text,Fate of shooter related variable,
 Shooters Cause of Death,Field,Text,The general cause of death at the time of the incident.,"Killed, Committed suicide"
 Killed,Variable,Text,Cause of death related variable,
