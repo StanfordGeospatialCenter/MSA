@@ -74,6 +74,7 @@ Street/Highway,Variable,Text,A residential/main street or highway.,Residential s
 Primary school,Variable,Text,"A facility that provides a preprimary and primary, public and private education. ","Preschool, elementary school, junior high school"
 Secondary school,Variable,Text,"A facility that provides a secondary, public and private education.",High school
 Company/Factory/Office,Variable,Text,A facility where people work during a similar time period; an individual business dedicated to the management of other chains; factory.,
+Hospitality Facility,Variable,Text,A hotel, motel, resort, or other facility related to hospitality.,
 Unknown,Variable,Text,The place where the incident was committed was not found in public documentation relating to the event.,
 Relationship to Incident Location,Field,Text,The shooter's relationship to the place where the initial shooting occurred or place where the main shooting occurred.,
 Place of residency,Variable,Text,"The place where the shooter, or someone he knew, resided before or at the time of the incident. This place could be a house, apartment unit or neighborhood where the shooter resided. ",The place the incident occurred was the shooter's girlfriend's home.
