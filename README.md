@@ -53,7 +53,5 @@ It is the user's responsibility to perform their own rigorous data quality asses
 The Stanford MSA is released under a Creative Commons Attribution 4.0 international license. Please cite the MSA as “Stanford Mass Shootings in America, courtesy of the Stanford Geospatial Center and Stanford Libraries”.
 
 ##### Status of the database
-The Stanford MSA is an ongoing project that involves the careful aggregation of data on a topic that receives numerous new records under the search term “Mass Shooting” on a weekly basis. Updating the database involves checking and corroborating both new and historical stories and is a time consuming process.  Our goal is to release a new update at least once a month or more frequently depending on the number of new records.
+Due to the significant resource requirements for maintaining this dataset, the Stanford Mass Shootings in America database has been permanently suspended. The project has been archived and will remain publicly available as a GitHub repository.
 
-##### Access
-Please fill out the form linked [here](https://docs.google.com/forms/d/1tu5IyY3Fr93ecxwFh584cs30lrff3Jau2VJdNjhFAHc/viewform) if you plan to use the database. Current release copy is June 6th, 2016.
