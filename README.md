@@ -4,9 +4,10 @@
 
 ***Due to the significant resource requirements for maintaining this dataset, the Stanford Mass Shootings in America database has been permanently suspended. The project has been archived and will remain publicly available as a GitHub repository.***  
 
-***As a service to those seeking a comparable and more recently updated alternative, we are providing links to other, more active efforts, below. The Stanford Geospatial Center in no way warrants the quality of, nor endorses any of the database efforts linked to in the following list and provided the links only as a starting point to what should be a measured and careful selection process when seeking data on phenomena of this type.***  
 
 ## Alternatives to the MSA Database  
+
+***As a service to those seeking a comparable and more recently updated alternative, we are providing links to other, more active efforts, below. The Stanford Geospatial Center in no way warrants the quality of, nor endorses any of the database efforts linked to in the following list and provided the links only as a starting point to what should be a measured and careful selection process when seeking data on phenomena of this type.***  
 
 ### Mother Jones  
 [https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/](https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/)
