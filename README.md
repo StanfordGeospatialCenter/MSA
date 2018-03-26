@@ -23,6 +23,11 @@
 
 # **MSA (Mass Shootings in America)**  
 
+## **Status of the database**  
+
+***Due to the significant resource requirements for maintaining this dataset, the Stanford Mass Shootings in America database has been permanently suspended. The project has been archived and will remain publicly available as a GitHub repository.***    
+
+
 A repository for the maintenance and distribution of the Mass Shootings in America Database.
 
 #### Contents
