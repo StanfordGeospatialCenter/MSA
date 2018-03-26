@@ -1,5 +1,15 @@
-# **MSA**
- A repository for the maintenance and distribution of the Mass Shootings in America Database.
+
+
+## **Status of the database**  
+
+***Due to the significant resource requirements for maintaining this dataset, the Stanford Mass Shootings in America database has been permanently suspended. The project has been archived and will remain publicly available as a GitHub repository.***  
+
+***As a service to those seeking a comparable and more recently updated alternative, we are providing links to other, more active efforts, below. The Stanford Geospatial Center in no way warrants the quality of, nor endorses any of the database efforts linked to in the following list and provided the links only as a starting point to what should be a measured and careful selection process when seeking data on phenomena of this type.***  
+
+
+# **MSA (Mass Shootings in America)**  
+
+A repository for the maintenance and distribution of the Mass Shootings in America Database.
 
 #### Contents
 
